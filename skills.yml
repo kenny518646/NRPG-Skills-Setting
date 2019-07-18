@@ -285,7 +285,7 @@ GravitationalCollapse:
   ModType: 0
   SilenceTime: 10000
   Cooldown: 60000
-  DamagePerCost: 350
+  DamagePerCost: 1
   MaxDistance: 20
   Radius: 10
   Delay: 5
