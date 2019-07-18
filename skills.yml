@@ -1,7 +1,24 @@
+#玩家能在遊戲內調整的設定只有在Custom裡面的
+#持續更新參數中文與單位
+#統一的參數單位
+
+#Cooldown以毫秒計算
+#Times為需要詠唱次數
+#Difficulty為詠唱時會有的星星數量
+#general = 是否為通用技能
+
+#ModType: 根據能力值影響可調整的上限
+# 0為不受能力影響
+# 1=攻擊(力量)
+# 2=血量
+# 3=魔力
+# 4=速度(敏捷)
+# 5=幸運
+
 Jump:
   Custom:
-    horizontal-power: 0.3
-    vertical-power: 0.3
+    horizontal-power: 0.3 #水平力道
+    vertical-power: 0.3 #垂直力道
   Max:
     horizontal-power: 1.0
     vertical-power: 1.0
@@ -17,8 +34,8 @@ Jump:
   general: true
 One:
   Custom:
-    Duration: 5
-    Level: 1
+    Duration: 5  #持續時間:秒
+    Level: 1 #效果強度(實際上請自行+1)
   Max:
     Duration: 5
     Level: 1
@@ -240,7 +257,7 @@ MonsterProcession:
   general: true
 FullCounter:
   Custom:
-    Delay: 10
+    Delay: 10 #延遲以tick計算 (20ticks=1秒)
   Max:
     Delay: 20
   Mod:
@@ -258,7 +275,7 @@ FullCounter:
   general: false
 GravitationalCollapse:
   Custom:
-    CostMPPercentage: 50
+    CostMPPercentage: 50 #消耗當前魔力量的百分比
   Max:
     CostMPPercentage: 100
   Mod:
