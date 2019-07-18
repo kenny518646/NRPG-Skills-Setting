@@ -1,0 +1,277 @@
+Jump:
+  Custom:
+    horizontal-power: 0.3
+    vertical-power: 0.3
+  Max:
+    horizontal-power: 1.0
+    vertical-power: 1.0
+  Mod:
+    horizontal-power: 0.3
+    vertical-power: 0.3
+  ModType: 4
+  CostMP: 0
+  Description: "通用技能- 跳躍(可調整強度)"
+  Difficulty: 0
+  Times: 0
+  no-air-jump: true
+  general: true
+One:
+  Custom:
+    Duration: 5
+    Level: 1
+  Max:
+    Duration: 5
+    Level: 1
+  Mod:
+    Duration: 1
+    Level: 1
+  ModType: 4
+  Cooldown: 30000
+  CostMP: 0
+  Description: "通用技能- 衝刺(可調整強度)"
+  Difficulty: 0
+  Times: 0
+  general: true
+Smoke:
+  Cooldown: 20000
+  CostMP: 10
+  Description: "隱身,受傷時現行"
+  Difficulty: 3
+  Times: 2
+  general: false
+DanceofDreamingButterfly:
+  CD: 7000
+  Cooldown: 500
+  CostMP: 20
+  Damage: 45
+  Description: "蝴蝶彈幕"
+  Difficulty: 0
+  Times: 0
+  general: false
+Blink:
+  Cooldown: 0
+  CostMP: 5
+  MaxDistance: 20
+  Description: "瞬間移動"
+  Difficulty: 0
+  Times: 0
+  general: false
+MagicInterrupt:
+  Cooldown: 7000
+  CostMP: 30
+  Range: 20
+  Damage: 40
+  Delay: 5
+  Speed: 10
+  Description: "妨礙施法"
+  Difficulty: 7
+  Times: 2
+  general: false
+Fly:
+  Cooldown: 0
+  CostMP: 2
+  Description: "飛行"
+  Difficulty: 0
+  Times: 0
+  general: false
+DuoCast:
+  Description: "被動技能-在施法模式時使用左鍵施放第二個魔法"
+  Difficulty: 0
+  Times: 0
+  general: false
+ArrowOfArtemis:
+  Cooldown: 10000
+  Difficulty: 5
+  Description: "向前方發射具有穿透性質的強力箭矢"
+  Times: 2
+  general: false
+StickyBomb:
+  Cooldown: 10000
+  Range: 5
+  Damage: 5
+  Duration: 5
+  Difficulty: 0
+  Description: "向前方丟會緩速的炸彈"
+  Times: 0
+  general: false
+AreaFire:
+  Cooldown: 10000
+  MaxDistance: 35
+  Radius: 7
+  Damage: 20
+  Attacks: 5
+  CostMP: 50
+  MaxTargets: 6
+  Delay: 10
+  Difficulty: 5
+  Description: "對目標位置進行多次攻擊"
+  Times: 1
+  general: false
+ConjurerJoke:
+  Cooldown: 1000
+  Range: 40
+  CostMP: 15
+  Difficulty: 0
+  Description: "互換兩個目標的位置"
+  Times: 0
+  general: false
+HailofArrows:
+  Cooldown: 6000
+  MaxDistance: 40
+  Height: 20
+  Damage: 50
+  Amount: 50
+  Yaw: 0
+  Pitch: 90
+  Speed: 3
+  Spread: 14
+  CostMP: 40
+  Difficulty: 0
+  Description: "箭雨"
+  Times: 0
+  general: false
+ExplosiveShot:
+  Cooldown: 4000
+  Damage: 70
+  Radius: 10
+  Duration: 20
+  MaxTargets: 6
+  CostMP: 50
+  Difficulty: 7
+  Description: "在一定時間內使下次的箭矢擁有爆炸效果"
+  Times: 2
+  general: false
+Bolt:
+  Cooldown: 3000
+  Damage: 80
+  lightning-volume: 3
+  CostMP: 50
+  MaxDistance: 35
+  Difficulty: 3
+  Description: "使目標被雷擊中"
+  Times: 3
+  general: false
+Fireball:
+  Cooldown: 6000
+  Damage: 40
+  fire-ticks: 60
+  velocity-multiplier: 2
+  CostMP: 30
+  Difficulty: 7
+  Description: "向前方發射火球"
+  Times: 1
+  general: false
+Icebolt:
+  Cooldown: 0
+  Damage: 25
+  Duration: 30
+  Amplifier: 2
+  velocity-multiplier: 3
+  CostMP: 5
+  Difficulty: 3
+  Description: "通用技能- 向前方發射具有緩速效果的雪球"
+  Times: 1
+  general: true
+ForcePull:
+  Cooldown: 6000
+  MaxDistance: 20
+  CostMP: 10
+  Difficulty: 0
+  Description: "將目標往自己的方向拉"
+  Times: 0
+  general: false
+ForcePush:
+  Cooldown: 5500
+  MaxDistance: 20
+  CostMP: 10
+  Difficulty: 0
+  Description: "將目標推離"
+  Times: 0
+  general: false
+Gliding:
+  Cooldown: 0
+  MPCostPerCheck: 8
+  CheckTime: 10
+  Difficulty: 0
+  Description: "滑翔/高速滑翔"
+  Times: 0
+  general: false
+OverBoost:
+  Cooldown: 10000
+  CostMP: 55
+  Radius: 3
+  Damage: 30
+  MaxDistance: 15
+  MaxTargets: 4
+  MaxBackDistance: 10
+  Difficulty: 3
+  Description: "向前方進行攻擊的同時往後瞬間移動"
+  Times: 1
+  general: false
+SonicBoom:
+  Cooldown: 15000
+  CostMP: 50
+  Radius: 15
+  Duration: 10000
+  Damage: 60
+  Difficulty: 0
+  Description: "使周圍的目標受到傷害,如果目標是玩家會額外給予沉默效果"
+  Times: 0
+  general: false
+TimeTrace:
+  Cooldown: 30000
+  Second: 6
+  Radius: 10
+  Damage: 100
+  CostMP: 100
+  Delay: 1
+  Difficulty: 4
+  Description: "短暫延遲後回到6秒前的位置並且對附近生物造成傷害"
+  Times: 2
+  general: false
+MonsterProcession:
+  Cooldown: 30000
+  Radius: 20
+  CostMP: 0
+  Range: 30
+  Difficulty: 0
+  Description: "通用技能- 設定附近怪物的目標"
+  Times: 0
+  general: true
+FullCounter:
+  Custom:
+    Delay: 10
+  Max:
+    Delay: 20
+  Mod:
+    Delay: 1
+  ModType: 1
+  Cooldown: 30000
+  CostMP: 100
+  BaseDamage: 5
+  MaxDistance: 10
+  Radius: 5
+  MaxTargets: 6
+  Difficulty: 0
+  Description: "將時間內受到的傷害反射(可調整時間)"
+  Times: 0
+  general: false
+GravitationalCollapse:
+  Custom:
+    CostMPPercentage: 50
+  Max:
+    CostMPPercentage: 100
+  Mod:
+    CostMPPercentage: 1
+  ModType: 0
+  SilenceTime: 10000
+  Cooldown: 60000
+  DamagePerCost: 350
+  MaxDistance: 20
+  Radius: 10
+  Delay: 5
+  Duration: 5000
+  Difficulty: 5
+  Description: "施放一顆引力球,時間後對周圍造成傷害並沉默目標(可調整耗魔量)"
+  Times: 4
+  general: false
