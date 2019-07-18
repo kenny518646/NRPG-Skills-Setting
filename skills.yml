@@ -253,9 +253,9 @@ MonsterProcession:
   Radius: 20
   CostMP: 0
   Range: 30
-  Difficulty: 0
+  Difficulty: 4
   Description: "通用技能- 設定附近怪物的目標"
-  Times: 0
+  Times: 2
   general: true
 FullCounter:
   Custom:
