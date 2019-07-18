@@ -271,9 +271,9 @@ FullCounter:
   MaxDistance: 10
   Radius: 5
   MaxTargets: 6
-  Difficulty: 0
+  Difficulty: 2
   Description: "將時間內受到的傷害反射(可調整時間)"
-  Times: 0
+  Times: 1
   general: false
 GravitationalCollapse:
   Custom:
