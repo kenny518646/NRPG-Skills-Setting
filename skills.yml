@@ -188,9 +188,9 @@ Icebolt:
   velocity-multiplier: 3
   CostMP: 5
   Difficulty: 3
-  Description: "通用技能- 向前方發射具有緩速效果的雪球"
+  Description: "向前方發射具有緩速效果的雪球"
   Times: 1
-  general: true
+  general: false
 ForcePull:
   Cooldown: 6000
   MaxDistance: 20
@@ -254,9 +254,9 @@ MonsterProcession:
   CostMP: 0
   Range: 30
   Difficulty: 4
-  Description: "通用技能- 設定附近怪物的目標"
+  Description: "設定附近怪物的目標"
   Times: 2
-  general: true
+  general: false
 FullCounter:
   Custom:
     Delay: 10 #延遲以tick計算 (20ticks=1秒)
