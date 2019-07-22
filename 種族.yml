@@ -1,0 +1,104 @@
+#Mod的部分為影響玩家能力值 
+#其中Slot除了影響限有技能槽數量以外,也會影響最高上限
+#SkillList是成為種族的一員時會獲得的技能
+
+unknown:
+  default: true
+  DisplayName: 未知
+  Info: 預設種族,沒有任何加成
+  SkillList: []
+  Mod:
+    Slot: 0
+    ATK: 0
+    LUK: 0
+    Speed: 0
+    MP: 0
+    HP: 0
+Runaru:
+  default: false
+  DisplayName: 亞人(狐)
+  Info: 擅長魔法,同時掌握其他種族無法學習的技能
+  SkillList: []
+  Mod:
+    Slot: 2
+    ATK: -1
+    LUK: 0
+    Speed: 0
+    MP: 2
+    HP: -2
+CatPeople:
+  default: false
+  DisplayName: 亞人(貓)
+  Info: 敏捷和運氣較高
+  SkillList: []
+  Mod:
+    Slot: 0
+    ATK: 0
+    LUK: 1
+    Speed: 2
+    MP: -1
+    HP: -1
+Boas:
+  default: false
+  DisplayName: 亞人(豬)
+  Info: 血量與力量較高
+  SkillList: []
+  Mod:
+    Slot: 0
+    ATK: 1
+    LUK: -1
+    Speed: -2
+    MP: -2
+    HP: 2
+Werwolf:
+  default: false
+  DisplayName: 亞人(狼)
+  Info: 速度與力量較高
+  SkillList: []
+  Mod:
+    Slot: -1
+    ATK: 2
+    LUK: -1
+    Speed: 1
+    MP: -1
+    HP: 0
+Mazoku:
+  default: false
+  DisplayName: 魔族
+  Info: 魔力與力量較高
+  SkillList: []
+  Mod:
+    Slot: 0
+    ATK: 1
+    LUK: -2
+    Speed: -1
+    MP: 2
+    HP: 0
+Elf:
+  default: false
+  DisplayName: 妖精
+  Info: 魔力與機動性較高
+  SkillList:
+  - Fly
+  Mod:
+    Slot: 0
+    ATK: 0
+    LUK: -1
+    Speed: 2
+    MP: 1
+    HP: -2
+Human:
+  default: false
+  DisplayName: 人族
+  Info: 掌握了一部分的基礎魔法的用法
+  SkillList:
+  - IceBolt
+  - MonsterProcession
+  - Fireball
+  Mod:
+    Slot: -1
+    ATK: 1
+    LUK: 2
+    Speed: -1
+    MP: -1
+    HP: 1
