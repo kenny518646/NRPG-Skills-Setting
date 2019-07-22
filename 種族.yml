@@ -18,9 +18,11 @@ Runaru:
   default: false
   DisplayName: 亞人(狐)
   Info: 擅長魔法,同時掌握其他種族無法學習的技能
-  SkillList: []
+  SkillList: 
+  - MagicInterrupt
+  - DanceofDreamingButterfly
   Mod:
-    Slot: 2
+    Slot: 1
     ATK: -1
     LUK: 0
     Speed: 0
@@ -30,7 +32,8 @@ CatPeople:
   default: false
   DisplayName: 亞人(貓)
   Info: 敏捷和運氣較高
-  SkillList: []
+  SkillList:
+  - Backflip
   Mod:
     Slot: 0
     ATK: 0
@@ -42,9 +45,10 @@ Boas:
   default: false
   DisplayName: 亞人(豬)
   Info: 血量與力量較高
-  SkillList: []
+  SkillList:
+  - ForcePush
   Mod:
-    Slot: 0
+    Slot: -1
     ATK: 1
     LUK: -1
     Speed: -2
@@ -54,7 +58,8 @@ Werwolf:
   default: false
   DisplayName: 亞人(狼)
   Info: 速度與力量較高
-  SkillList: []
+  SkillList: 
+  - Smoke
   Mod:
     Slot: -1
     ATK: 2
@@ -66,7 +71,9 @@ Mazoku:
   default: false
   DisplayName: 魔族
   Info: 魔力與力量較高
-  SkillList: []
+  SkillList:
+  - DuoCast
+  - Blink
   Mod:
     Slot: 0
     ATK: 1
