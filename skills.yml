@@ -100,8 +100,8 @@ MagicInterrupt:
   Delay: 5
   Speed: 10
   Description: "妨礙施法"
-  Difficulty: 7
-  Times: 2
+  Difficulty: 6
+  Times: 1
   general: false
 Fly:
   Cooldown: 0
