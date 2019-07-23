@@ -15,7 +15,6 @@
 # 4=速度(敏捷)
 # 5=幸運
 # 公式為: 能力值*Mod欄位*Max欄位
-# 以Jump作為示範 假設我速度能力值為S(等同5) 則我可以調整的最大上限= 5*0.3*1.0 = 1.5
 
 Jump:
   Custom:
@@ -204,7 +203,7 @@ Icebolt:
   Amplifier: 2
   velocity-multiplier: 3
   CostMP: 5
-  Difficulty: 3
+  Difficulty: 6
   Description: "向前方發射具有緩速效果的雪球"
   Times: 1
   general: false
