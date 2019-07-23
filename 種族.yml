@@ -20,6 +20,7 @@ Runaru:
   Info: 擅長魔法,同時掌握其他種族無法學習的技能
   SkillList: 
   - MagicInterrupt
+  - UchidenoKozuchi
   - DanceofDreamingButterfly
   Mod:
     Slot: 1
