@@ -310,3 +310,13 @@ GravitationalCollapse:
   Description: "施放一顆引力球,時間後對周圍造成傷害並沉默目標(可調整耗魔量)"
   Times: 4
   general: false
+UchidenoKozuchi:
+  Cooldown: 180000
+  Range: 20
+  CostManaPercentage: 50
+  CostMP: 0
+  Range: 30
+  Difficulty: 6
+  Description: "將目標玩家的等級暫時提高1"
+  Times: 10
+  general: false
