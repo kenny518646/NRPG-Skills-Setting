@@ -104,7 +104,7 @@ MagicInterrupt:
   general: false
 Fly:
   Cooldown: 0
-  CostMP: 2
+  CostMP: 3
   Description: "飛行"
   Difficulty: 0
   Times: 0
