@@ -317,5 +317,5 @@ UchidenoKozuchi:
   Range: 30
   Difficulty: 6
   Description: "將目標玩家的等級暫時提高1"
-  Times: 10
+  Times: 6
   general: false
