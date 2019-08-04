@@ -64,7 +64,6 @@ Werwolf:
   SkillList: 
   - Smoke
   - One
-  - Jump
   Mod:
     Slot: -1
     ATK: 2
