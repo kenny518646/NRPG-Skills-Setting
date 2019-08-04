@@ -35,6 +35,7 @@ CatPeople:
   Info: 敏捷和運氣較高
   SkillList:
   - Backflip
+  - Jump
   Mod:
     Slot: 0
     ATK: 0
@@ -48,6 +49,7 @@ Boas:
   Info: 血量與力量較高
   SkillList:
   - ForcePush
+  - One
   Mod:
     Slot: -1
     ATK: 1
@@ -61,6 +63,8 @@ Werwolf:
   Info: 速度與力量較高
   SkillList: 
   - Smoke
+  - One
+  - Jump
   Mod:
     Slot: -1
     ATK: 2
