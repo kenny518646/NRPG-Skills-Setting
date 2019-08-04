@@ -28,11 +28,11 @@ Jump:
     vertical-power: 0.3
   ModType: 4
   CostMP: 0
-  Description: "通用技能- 跳躍(可調整強度)"
+  Description: "跳躍(可調整強度)"
   Difficulty: 0
   Times: 0
   no-air-jump: true
-  general: true
+  general: false
 Backflip:
   Custom:
     horizontal-power: 0.3
@@ -63,10 +63,10 @@ One:
   ModType: 4
   Cooldown: 30000
   CostMP: 0
-  Description: "通用技能- 衝刺(可調整強度)"
+  Description: "衝刺(可調整強度)"
   Difficulty: 0
   Times: 0
-  general: true
+  general: false
 Smoke:
   Cooldown: 20000
   CostMP: 10
