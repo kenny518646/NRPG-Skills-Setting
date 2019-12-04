@@ -7,15 +7,6 @@
 # Difficulty為詠唱時會有的星星數量
 # general = 是否為通用技能
 
-#ModType: 根據能力值影響可調整的上限 
-# 0為不受能力影響
-# 1=攻擊(力量)
-# 2=血量
-# 3=魔力
-# 4=速度(敏捷)
-# 5=幸運
-# 公式為: 能力值*Mod欄位*Max欄位
-
 Jump:
   Custom:
     horizontal-power: 0.3 #水平力道
